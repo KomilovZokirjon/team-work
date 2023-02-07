@@ -1,0 +1,60 @@
+.ready {
+
+    &__section::before {
+        content: "";
+        background-image: url(/img/Circle_left.png);
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 244px;
+        top: 5px;
+        position: absolute;
+    }
+
+    &__section {
+        position: relative;
+        background: #F67E7E;
+        padding-top: 76px;
+        padding-bottom: 76px;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    &__title {
+        font-family: 'Livvic';
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        color: #012F34;        
+    }
+
+    &__link {
+        font-family: 'Livvic';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #012F34;  
+        border: 1px solid #012F34;
+        border-radius: 24px;
+        text-decoration: none;  
+        padding: 11px 30px;    
+        transition: all 0.5s ease;
+    }
+
+    &__link:hover {
+        background-color: #012F34;
+        color: #fff;
+        border: 1px solid #012F34;
+    }
+
+    &__link:active {
+        color: #012F34;  
+        border: 2px solid #012F34;
+        background-color: #F67E7E;   
+        transition: none;
+    }
+
+}

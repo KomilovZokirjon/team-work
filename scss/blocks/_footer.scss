@@ -1,0 +1,55 @@
+.footer {
+
+    & {
+        background: #002529;
+        padding-top: 48px;
+    }
+
+    &__title {
+        font-family: 'Livvic';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        padding-left: 40px;
+    }
+
+    &__title:first-child {
+        padding: 0;
+    }
+
+    &__flex {
+        display: flex;
+        align-items: center;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__text {
+        font-family: 'Livvic';
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        max-width: 445px;        
+    }
+
+    &__div--two {
+        margin-right: 150px;
+    }
+
+    &__copyright--text {
+        font-family: 'Livvic';
+        padding-top: 50px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+
+}

@@ -1,0 +1,97 @@
+.deliver {
+
+    &__section {
+        background-color: #014e56;
+        background-repeat: no-repeat;
+        background-image: url("../images/hero-bcimg-left.svg");
+        background-position: left;
+        background-position-y: 38%;
+      }
+      
+      .hero-main {
+        padding: 129px 0 250px 0;
+        display: flex;
+        justify-content: space-between;
+        background-repeat: no-repeat;
+        background-image: url("../images/hero-bcimg-bottom.svg");
+        background-position: right bottom;
+      }
+      
+      .hero-main__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 100px;
+        line-height: 100px;
+        width: 620px;
+        color: #ffffff;
+      }
+      
+      .hero-main__title span {
+        color: #f67e7e;
+      }
+      
+      .hero-main__text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #ffffff;
+        width: 445px;
+        padding-top: 83px;
+        position: relative;
+      }
+      
+      .hero-main__text::before {
+        content: "";
+        width: 50px;
+        height: 4px;
+        display: inline-block;
+        background: #79c8c7;
+        position: absolute;
+        top: 0;
+      }
+      
+      .main-page__inner {
+        padding: 129px 0 250px 0;
+        display: flex;
+        justify-content: space-between;
+        background-repeat: no-repeat;
+        background-image: url("../images/hero-bcimg-bottom.svg");
+        background-position: right bottom;
+      }
+      
+      .main-page__title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 100px;
+        line-height: 100px;
+        width: 620px;
+        color: #fff;
+      }
+      
+      .main-page__title span {
+        color: #f67e7e;
+      }
+      
+      .main-page__text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #ffffff;
+        width: 445px;
+        padding-top: 83px;
+        position: relative;
+      }
+      
+      .main-page__text::before {
+        content: "";
+        width: 50px;
+        height: 4px;
+        display: inline-block;
+        background: #79c8c7;
+        position: absolute;
+        top: 0;
+      }
+
+}

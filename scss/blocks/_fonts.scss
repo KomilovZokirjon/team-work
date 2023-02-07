@@ -1,0 +1,22 @@
+  /* livvic-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local(""),
+         url('../fonts/livvic-v13-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/livvic-v13-latin-600.woff') format('woff') /* Modern Browsers */
+  }
+  /* livvic-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local(""),
+         url('../fonts/livvic-v13-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/livvic-v13-latin-700.woff') format('woff') /* Modern Browsers */
+  }

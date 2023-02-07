@@ -1,0 +1,113 @@
+.real {
+
+    @media (max-width: 768px) {
+        &__section::before {
+            content: "";
+            background-image: url(/img/kvadrat.png);
+            background-repeat: no-repeat;
+            position: absolute;
+            left: -1;
+            bottom: 788px;
+            width: 147px;
+            height: 100px;
+        }
+    }
+
+    &__section::before {
+        content: "";
+        background-image: url(/img/kvadrat.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        left: -1px;
+        bottom: 689px;
+        width: 147px;
+        height: 100px;
+    }
+
+    &__section::after {
+        content: "";
+        background-image: url(/img/Circle_right.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 0px;
+        top: 687px;
+        width: 250px;
+        height: 100px;
+    }
+
+    &__section {
+        background: #004047;
+        padding-top: 140px;
+        padding-bottom: 150px;
+        position: relative;
+    }
+
+    &__title {
+        font-family: 'Livvic';
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;      
+        max-width: 932px;  
+        margin-left: 150px;
+    }
+
+    &__title--span {
+        color: #79C8C7;
+    }
+
+    &__item--des {
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;   
+        max-width: 350px;     
+        padding-bottom: 24px;
+    }
+
+     &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+        margin-top: 92px;
+     }
+
+     &__item {
+        display: flex;
+        flex-direction: column;
+        padding-top: 46px;
+        position: relative;
+        background-image: url(/img/Qoshtirnoq.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 80px;
+     }
+
+     &__item--title {
+        font-family: 'Livvic';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #79C8C7;
+        padding-bottom: 2px;
+     }
+
+     &__item--text {
+        font-family: 'Livvic';
+        font-size: 13px;
+        line-height: 18px;
+        font-style: italic;
+        text-align: center;
+        color: #FFFFFF;   
+        padding-bottom: 30px;     
+     }
+
+
+  
+}
